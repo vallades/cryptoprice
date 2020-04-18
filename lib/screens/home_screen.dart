@@ -2,6 +2,7 @@ import 'package:cryptoprice/screens/add_transaction_screen.dart';
 import 'package:cryptoprice/screens/exchanges_screen.dart';
 import 'package:cryptoprice/utils/nav.dart';
 import 'package:flutter/material.dart';
+import 'drawer_list.dart';
 
 class HomeScreen extends StatelessWidget {
 
@@ -12,6 +13,7 @@ class HomeScreen extends StatelessWidget {
         title: Text('Crypto Price'),
       ),
       body: _body(context),
+      drawer: DrawerList(),
     );
   }
 

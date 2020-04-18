@@ -2,6 +2,8 @@ import 'package:cryptoprice/screens/home_screen.dart';
 import 'package:cryptoprice/utils/nav.dart';
 import 'package:flutter/material.dart';
 
+import 'drawer_list.dart';
+
 class AddTransactionScreen extends StatefulWidget {
   @override
   _AddTransactionScreenState createState() => _AddTransactionScreenState();
@@ -24,6 +26,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
         title: Text('Adicionar Transação'),
       ),
       body: _body(context),
+      drawer: DrawerList(),
     );
   }
 

@@ -1,6 +1,8 @@
 import 'package:cryptoprice/data/exchanges_data.dart';
 import 'package:flutter/material.dart';
 
+import 'drawer_list.dart';
+
 class ExchangesScreen extends StatefulWidget {
   @override
   _ExchangesScreenState createState() => _ExchangesScreenState();
@@ -14,6 +16,7 @@ class _ExchangesScreenState extends State<ExchangesScreen> {
         title: Text("Crypto Price"),
       ),
       body: _body(context),
+      drawer: DrawerList(),
     );
   }
 
