@@ -21,7 +21,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Crypto Price'),
+        title: Text('Adicionar Transação'),
       ),
       body: _body(context),
     );
